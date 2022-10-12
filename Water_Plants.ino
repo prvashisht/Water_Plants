@@ -8,17 +8,20 @@
 #define DEVICE_HOSTNAME "PLANT_WATERER_1" // change this for every new device
 #define STATIC_IP_HOST_ADDRESS 81 // change this for every new device
 
-#define PIN_SENSOR_1 39
+// input  36, 39, 32, 34, 35, 33
+// output 23, 22, 21, 19, 18, 
+
+#define PIN_SENSOR_1 36
 #define PIN_MOTOR_1 23
 
-#define PIN_SENSOR_2 35
-#define PIN_MOTOR_2 21
+#define PIN_SENSOR_2 34
+#define PIN_MOTOR_2 22
 
-#define PIN_SENSOR_3 33
-#define PIN_MOTOR_3 5
+#define PIN_SENSOR_3 35
+#define PIN_MOTOR_3 21
 
-#define PIN_SENSOR_4 26
-#define PIN_MOTOR_4 4
+#define PIN_SENSOR_4 32
+#define PIN_MOTOR_4 19
 
 Plant_Waterer plant_1(PIN_SENSOR_1, PIN_MOTOR_1);
 Plant_Waterer plant_2(PIN_SENSOR_2, PIN_MOTOR_2);
